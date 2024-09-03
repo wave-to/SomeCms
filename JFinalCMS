@@ -1,0 +1,12 @@
+The /admin/template/update interface of the JFinalCMS system has any file upload security problems and can obtain server permissions
+
+Project Address
+https://gitee.com/heyewei/JFinalcms
+
+Project Issues
+https://gitee.com/heyewei/JFinalcms/issues/IAOKSQ
+
+This interface has an arbitrary file writing capability (path controllable)
+/admin/template/update
+
+com.cms.controller.admin.TemplateController#update,accepts the parameters passed in, including the file name and file contents
